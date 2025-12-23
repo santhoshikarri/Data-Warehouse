@@ -15,7 +15,7 @@ dataset/
 ```
 ## Warehouse Data Architecture
 
-![Warehouse Data Architecture](docs/warehouse/data_architecture.png)
+![Data_Architecture](https://github.com/user-attachments/assets/08e761c2-de49-4d74-89d8-394b55878095)
 
 
 
