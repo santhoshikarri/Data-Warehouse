@@ -1,0 +1,38 @@
+cat > .gitignore << 'EOF'
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# Logs
+*.log
+
+# Local databases / state
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+metabase.db*
+
+# Metabase plugins (binaries)
+plugins/
+*.jar
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Temp
+tmp/
+temp/
+EOF
