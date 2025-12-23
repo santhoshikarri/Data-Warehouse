@@ -41,7 +41,21 @@ The project follows the **Medallion Architecture** with three layers:
 - **Documentation & Diagramming:** Draw.io, Notion  
 
 ---
+---
+## 🛠️ **Setup & Installation Guide**  
 
+
+### **🔹 Running SQL Scripts:**  
+1️⃣ **Initialize Database:**  
+   ```
+   \i init_database.sql;
+   ```
+2️⃣ **Run ETL Scripts:**  
+   ```
+   \i scripts/bronze/       -- load data
+   \i scripts/silver/       -- transform data
+   \i scripts/gold/         -- final model
+   ```
 ## 📂 **Repository Structure**  
 
 ```
@@ -154,19 +168,5 @@ The analysis followed a structured approach, covering various aspects of the dat
 
 The EDA process was conducted using  SQL queries. The results of the EDA are stored in the `output` directory within the `report` folder.
 
----
-## 🛠️ **Setup & Installation Guide**  
 
-
-### **🔹 Running SQL Scripts:**  
-1️⃣ **Initialize Database:**  
-   ```
-   \i init_database.sql;
-   ```
-2️⃣ **Run ETL Scripts:**  
-   ```
-   \i scripts/bronze/       -- load data
-   \i scripts/silver/       -- transform data
-   \i scripts/gold/         -- final model
-   ```
 
